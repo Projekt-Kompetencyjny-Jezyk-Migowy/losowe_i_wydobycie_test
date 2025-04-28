@@ -5,7 +5,7 @@ from glob import glob
 def main():
     try:
         # Folder z plikami CSV
-        folder_path = "gotowe_csv"
+        folder_path = "PREPARE DATA\gotowe_csv"
         print(f"🔍 Analiza folderu: '{folder_path}'")
 
         if not os.path.exists(folder_path):
@@ -50,7 +50,7 @@ def main():
         # Stworzenie DataFrame ze złączonych danych
         final_df = pd.DataFrame(merged_data)
 
-        # Zapis do Excela
+        # Save to Excela
         output_file = "złączone_dane.xlsx"
         final_df.to_excel(output_file, index=False)
         print(f"✅ Zapisano dane do pliku: {output_file}")

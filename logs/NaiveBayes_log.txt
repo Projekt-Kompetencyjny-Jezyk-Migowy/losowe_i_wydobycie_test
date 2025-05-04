@@ -1,5 +1,5 @@
 Model: NaiveBayes
-Czas treningu: 3.67 s
+Czas treningu: 3.75 s
 Parametry: {'priors': None, 'var_smoothing': 1e-09}
 
 Średnie metryki:

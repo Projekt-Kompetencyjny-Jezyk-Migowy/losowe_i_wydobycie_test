@@ -51,4 +51,4 @@ Precision (macro): 0.9209
 Recall (macro): 0.9008
 F1 Score (macro): 0.9074
 
-Czas treningu: 2.49 sekund
+Czas treningu: 2.68 sekund

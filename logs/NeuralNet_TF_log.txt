@@ -1,10 +1,10 @@
 Model: NeuralNet_TF
-Czas treningu: 12.74 s
-Epoki: 23
+Czas treningu: 51.10 s
+Epoki: 13
 Parametry: 59108 total
 
 Średnie metryki:
-Accuracy: 0.9915
-Precision: 0.9798
-Recall: 0.9742
-F1: 0.9758
+Accuracy: 0.9865
+Precision: 0.9649
+Recall: 0.9621
+F1: 0.9624
